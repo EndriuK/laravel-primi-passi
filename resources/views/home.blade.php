@@ -10,7 +10,30 @@
 
 <body>
     <div class="container">
-        <h1>Hello Laravel</h1>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Hello Laravel</h1>
+            </div>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active"  href="#">{{ $message }}</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">{{ $sub_title }}</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">{{ $prova }}</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
     </div>
 </body>
 
